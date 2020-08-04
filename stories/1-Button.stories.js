@@ -1,25 +1,22 @@
 import React from "react";
+import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
 
-import { action } from "@storybook/addon-actions";
-import { Button } from "@storybook/react/demo";
+import FileUpload from "../components/file_upload";
 
 export default {
-  title: "Button",
-  component: Button,
+	title: "File",
+	component: FileUpload,
+	decorators: [withKnobs],
 };
 
-export const Text = () => (
-  <Button onClick={action("clicked")}>Hello Button</Button>
+export const File_Plain = () => (
+	<div className="flex justify-center pt-6">
+		<FileUpload />
+	</div>
 );
 
-export const Emoji = () => (
-  <Button onClick={action("clicked")}>
-    <span className="bg-green-200" role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
+export const File_Text = () => (
+	<div className="flex justify-center pt-6">
+		<FileUpload text={text("Text", "Add a file")} />
+	</div>
 );
-
-Emoji.story = {
-  name: "with emoji",
-};
