@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 export default function FileUpload(props) {
 	const [fileName, setFileName] = useState(false);
 	function handleChange(event) {

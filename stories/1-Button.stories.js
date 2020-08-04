@@ -1,12 +1,12 @@
 import React from "react";
+import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
 
-import { action } from "@storybook/addon-actions";
-import { Button } from "@storybook/react/demo";
 import FileUpload from "../components/file_upload";
 
 export default {
 	title: "File",
 	component: FileUpload,
+	decorators: [withKnobs],
 };
 
 export const File_Plain = () => (
@@ -17,6 +17,6 @@ export const File_Plain = () => (
 
 export const File_Text = () => (
 	<div className="flex justify-center pt-6">
-		<FileUpload text="Add a file" />
+		<FileUpload text={text("Text", "Add a file")} />
 	</div>
 );
