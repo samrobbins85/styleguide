@@ -3,6 +3,8 @@ import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
 
 import FileUpload from "../components/file_upload";
 
+import ReactModal from "../components/modal";
+
 export default {
 	title: "File",
 	component: FileUpload,
@@ -20,3 +22,5 @@ export const File_Text = () => (
 		<FileUpload text={text("Text", "Add a file")} />
 	</div>
 );
+
+export const Modal = () => <ReactModal title="Hello">World</ReactModal>;
