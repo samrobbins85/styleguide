@@ -1,29 +1,27 @@
 {
-	"name": "nextjs-template",
-	"version": "1.0.0",
-	"scripts": {
-		"next-dev": "next",
-		"next-build": "next build",
-		"next-start": "next start",
-		"dev": "start-storybook -p 6006",
-		"build-storbook": "build-storybook",
-		"build": "build-storybook -c .storybook -o build"
-	},
-	"dependencies": {
-		"next": "^9.5.1",
-		"next-pwa": "^3.1.1",
-		"react": "^16.12.0",
-		"react-dom": "^16.12.0"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.11.0",
-		"@storybook/addon-actions": "^5.3.19",
-		"@storybook/addon-links": "^5.3.19",
-		"@storybook/addons": "^5.3.19",
-		"@storybook/react": "^5.3.19",
-		"babel-loader": "^8.1.0",
-		"postcss-import": "^12.0.1",
-		"postcss-preset-env": "^6.7.0",
-		"tailwindcss": "^1.6.1"
-	}
+  "name": "test-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
 }
