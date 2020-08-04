@@ -2,9 +2,10 @@ import React from "react";
 
 import { action } from "@storybook/addon-actions";
 import { Button } from "@storybook/react/demo";
+import FileUpload from "../components/file_upload";
 
 export default {
-	title: "Button",
+	title: "Form",
 	component: Button,
 };
 
@@ -18,6 +19,12 @@ export const Emoji = () => (
 			😀
 		</span>
 	</Button>
+);
+
+export const File = () => (
+	<div className="flex justify-center pt-6">
+		<FileUpload />
+	</div>
 );
 
 Emoji.story = {
