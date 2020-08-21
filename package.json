@@ -15,7 +15,7 @@
     "tailwindcss": "^1.7.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
+    "@babel/core": "^7.11.4",
     "@storybook/addon-a11y": "^6.0.13",
     "@storybook/addon-actions": "^6.0.12",
     "@storybook/addon-knobs": "^6.0.13",
