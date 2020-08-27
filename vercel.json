@@ -1,4 +1,7 @@
 {
 	"version": 2,
-	"alias": ["sam-styleguide.vercel.app"]
+	"alias": ["sam-styleguide.vercel.app"],
+	"github": {
+	    "silent": true
+	}
 }
