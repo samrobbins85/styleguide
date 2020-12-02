@@ -12,20 +12,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^1.7.5"
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.4",
-    "@storybook/addon-a11y": "^6.0.19",
-    "@storybook/addon-actions": "^6.0.19",
-    "@storybook/addon-knobs": "^6.0.19",
-    "@storybook/addon-links": "^6.0.19",
-    "@storybook/addon-storysource": "^6.0.16",
-    "@storybook/addons": "^6.0.18",
-    "@storybook/react": "^6.0.18",
-    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-a11y": "^6.1.9",
+    "@storybook/addon-actions": "^6.1.9",
+    "@storybook/addon-knobs": "^6.1.9",
+    "@storybook/addon-links": "^6.1.9",
+    "@storybook/addon-storysource": "^6.1.9",
+    "@storybook/addons": "^6.1.9",
+    "@storybook/react": "^6.1.9",
+    "babel-loader": "^8.2.2",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
-    "react-modal": "^3.11.2"
+    "react-modal": "^3.12.1"
   }
 }
